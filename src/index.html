@@ -1,0 +1,255 @@
+
+<!--
+    Date : 04-11-2019
+    Author: MOURCHID Mohamed Kamal
+    Git: https://github.com/MohKamal
+    Site: https://mourchidmohamedkamal.ml
+
+    You can edited to your needs! Hope it help :D
+
+    !!!! Hakuna Matata !!!!
+
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>Simple Bootstrap Page</title>
+        <meta charset="UTF-8">
+        <meta name="Author" content="MOURCHID Mohamed Kamal">
+        <meta name="Description" content="A Simple Bootstrap page with sections">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://getbootstrap.com/docs/4.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            .element > [class*='col-']:before {
+                background: #131313;
+                bottom: 0;
+                height: 10%;
+                margin: auto;
+                content: ' ';
+                left: 0;
+                position: absolute;
+                width: 1px;
+                top: 0;
+            }
+            
+            .element > [class*='col-']:first-child:before {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </div>
+            </nav>
+        <div class="container-fluid">
+            <!-- Start Hero Banner -->
+            <div class="row">
+                <div class="col-12 d-flex align-items-center p-3" style="background-image: url('dist/img/banner.jpg');background-repeat: no-repeat;background-size: cover;min-height: 500px;">
+                    <div class="container text-left">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <h1 class="h3 text-white">Aenean commodo ligula</h1>
+                                <h2 class="h1 text-white">Lorem ipsum dolor sit amet</h2>
+                                <p class="my-4 text-white">Aenean commodo ligula eget dolor Aenean massa</p>
+                                <a href="#" class="btn btn-primary text-white" style="border-radius: 50px;">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hero Banner -->
+        
+            <!-- Start Become Section -->
+            <div class="row p-5 bg-light">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-6">
+                                <h3 class="mb-2 h2">Curabitur ullamcorper ultricies</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                                <a href="#" class="btn btn-primary text-white" style="border-radius: 50px;">Get Started</a>
+                            </div>
+                            <div class="col-lg-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Become Section -->
+        
+            <!-- Start Adventages Section -->
+            <div class="row bg-white p-5">
+                <div class="col-lg-12 text-center">
+                    <h2>Curabitur ullamcorper ultricies nis?</h2>
+                </div>
+        
+                
+                <div class="col-12 d-flex justify-content-center align-items-center text-center">
+                    <div class="container">
+        
+                        <div class="row">
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                                    <div class="text-left">
+                                        <h4>Venenatis vitae justo</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                                        <a href="#" class="btn btn-primary text-white" style="border-radius: 50px;">Get Started</a>
+                                    </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="dist/img/01.jpg" class="img-responsive" style="width:100%">
+                            </div>
+                        </div>
+        
+                        
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="dist/img/02.jpg" class="img-responsive" style="width:100%">
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                                    <div class="text-left">
+                                        <h4>Venenatis vitae justo</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                                        <a href="#" class="btn btn-primary text-white" style="border-radius: 50px;">Get Started</a>
+                                    </div>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                                    <div class="text-left">
+                                        <h4>Venenatis vitae justo</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                                        <a href="#" class="btn btn-primary text-white" style="border-radius: 50px;">Get Started</a>
+                                    </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="dist/img/03.jpg" class="img-responsive" style="width:100%">
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </div>
+            <!-- End Adventages Section -->
+        
+            <!-- Start How it work Section -->
+            <div class="row p-5 bg-light">
+                <div class="col-12 text-center">
+                    <h2>How It Works</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-center align-items-center text-center">
+                    <div class="container">
+                        <div class="row element">
+                            
+                            <div class="col-lg-4 p-5">
+                                <img class="img-fluid" style="max-height: 100px; max-width: 100px;" src="dist/img/Sign Up.png">
+                                <h5 class="mb-2"><b>Sign Up</b></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.</p>
+                            </div>                       
+        
+                            <div class="col-lg-4 p-5">
+                                <img class="img-fluid" style="max-height: 100px; max-width: 100px;" src="dist/img/Create a Site.png">
+                                <h5 class="mb-2"><b>Manage your data</b></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.</p>
+                            </div>
+        
+                            <div class="col-lg-4 p-5">
+                                <img class="img-fluid" style="max-height: 100px; max-width: 100px;" src="dist/img/Convert.png">
+                                <h5 class="mb-2"><b>Get Paid</b></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End How it work Section -->
+        </div>
+
+       <!-- Footer -->
+    <footer class="page-footer font-small text-white bg-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+      
+          <!--Grid row-->
+          <div class="row">
+      
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+      
+              <!-- Form -->
+              <form class="form-inline">
+                <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                  aria-label="Search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </form>
+              <!-- Form -->
+      
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+      
+              <form class="input-group">
+                <input type="text" class="form-control form-control-sm" placeholder="Your email"
+                  aria-label="Your email" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-sm bg-success btn-outline-white my-0 text-white" type="button">Sign up</button>
+                </div>
+              </form>
+      
+            </div>
+            <!--Grid column-->
+      
+          </div>
+          <!--Grid row-->
+      
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+          <a href="https://github.com/MohKamal"> MOURCHID Mohamed Kamal</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+    </body>
+</html>
